@@ -1,0 +1,175 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header{
+    width: 100%;
+    height: 80%;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #284F44;
+    
+    
+}
+
+header > h1 {
+    font-weight: bold;
+    font-size: 8em;
+    text-align: center;
+    color: white;
+    margin: 170px;
+}
+
+/*Elementos do menu*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #284F44;
+    padding: 10px;
+    
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    
+}
+
+a:hover {
+    background-color: #84aa79 ;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+section {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+section > h1 {
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+section > p {
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*Cores do section*/
+#sobre, #map {
+    color: #284F44;
+    background-color: #ffff;
+    
+}
+
+
+#objetivo {
+    color: #ffff;
+    background-color: #284F44;
+}
+
+
+
+/*Organização do formulário*/
+
+.subtitulo, .titulo {
+    font-size: 1.5em;
+    padding: 2px;
+    color: #284F44;
+    text-align: center;
+}
+
+#form{
+    background-color: #F6F6EA;
+    color: #284F44;
+    text-align: left;
+}
+
+.content {
+width: 500px;
+margin: 0 auto;
+border-radius: 15px;
+}
+
+form {
+padding: 30px;
+}
+
+
+
+.container {
+padding: 30px;
+
+}
+
+input[type=text], input[type=tel], input[type=email] {
+width: 100%;
+padding: 10px;
+margin: 5px 0 22px 0;
+border: 1px solid rgba(0, 0, 0, 0.274);
+border-radius: 5px;
+
+}
+
+#msg {
+ display: block;
+ height: 100px;
+ width: 100%;
+ padding: 10px;
+ margin: 5px 0 22px 0;
+ border: 1px solid rgba(0, 0, 0, 0.274);
+ border-radius: 5px;
+}
+
+label {
+    margin: 2px;
+}
+
+.button {
+    background-color:#284F44;
+    color: white;
+    padding: 16px 20px;
+    margin: 34px 0;
+    border: none;
+    border-radius: 5px;
+    width: 33%;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  .button:hover{
+    opacity: 1;
+  }
+
+  /*rodapé*/
+footer{
+    background-color: #284F44;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/inicial.css">
+</head>
+<body>
+    <header>
+        <h1>Biocycle</h1>
+    </header>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#localizacao" target="_self">Localização</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    <main>
+        <a name="sobre"></a>
+        <section id="sobre">
+            <h1>Sobre nós...</h1>
+            <p>O Zoológico de Guarulhos, criado em 1981, mantém cerca de 500 animais, de 100 diferentes espécies, priorizando a fauna nacional, com 91% de espécies nativas. O Zoo participa de programas de conservação de espécies ameaçadas, realiza pesquisas científicas e atividades de educação para conservação. Os animais recebem cuidados constantes, tanto preventivos como curativos, por uma equipe de biólogos, veterinários e tratadores, incumbidos da manutenção de sua saúde e bem estar.</p>
+        </section>
+
+        <a name="objetivo"></a>
+        <section id="objetivo">
+            <h1>Objetivo</h1>
+            <p>O zoológico de Guarulhos contém cinco lagos distribuídos em uma área total de 70 mil m² e conta com área de exposição, área de tratamento de animais com clínica veterinária e recinto para quarentena de animais excedentes, setor administrativo, setor de manutenção e áreas de lazer nas quais os visitantes podem realizar piqueniques. Há atividades de educação ambiental, realização de pesquisa cientĩfica e participação em programas de conservação de espécies. A área do zoológico também abriga do Museu de Ciências Naturais de Guarulhos desde 2005, que por sua vez possui um acervo com mais de 450 itens.</p>
+        </section>
+
+
+        <a name="localizacao"></a>
+        <section id="map">
+            <h1>Localização</h1>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.4920852086393!2d-46.55454648595935!3d-23.44270808474191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef4ffccaa6fa9%3A0x1922855f2a09ebd5!2sAv.%20Don%C3%A1%20Gl%C3%B3ria%20Pagnonceli%2C%20344%20-%20Jardim%20Rosa%20de%20Franca%2C%20Guarulhos%20-%20SP%2C%2007081-120!5e0!3m2!1spt-BR!2sbr!4v1648343822558!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p><strong>Endereço:</strong> Rua Dona Gloria Pagnoncelli 344 Jardim Rosa de França – Guarulhos – São Paulo – Brasil CEP: 07081-120</p>
+        </section>
+        <a name="contato"></a>
+        <section id="form">
+          <h1 class="titulo">Contato</h1>
+        
+          <h3 class="subtitulo">AGENDA SUA COLETA GRATUITA!</h3>
+        
+          <div class="content">
+            <form action="">
+              <div class="container">
+                
+                <div>
+                 <label for="text"><strong>Nome:</strong></label>
+                 <input type="text" placeholder="Digite seu Seu nome" name="name" id="name" required>
+                </div>
+                 
+                <div>
+                  <label for="email"><strong>E-mail:</strong></label>
+                  <input type="email" placeholder="Digite seu email" name="email" id="email" required>
+                </div>
+                
+                <div>
+                  <label for="tel"><strong> Número:</strong></label>
+                  <input type="tel" placeholder="Digite seu numero" name="tel" id="tel" required>
+                </div>
+        
+                <div>
+                  <label for="text"><strong>Endereço:</strong></label>
+                  <input type="text" placeholder="Digite seu endereço" name="end" id="end" required>
+                </div>
+        
+                <div>
+                  <label for="escolha"  style="inline-size: auto;"><strong>Seleciona uma opção:</strong></label><br>
+                  <input type="radio" name="escolha" id="escolha" required> Escola
+                  <input type="radio" name="escolha" id="escolha" required> Empresa
+                  <input type="radio" name="escolha" id="escolha" required> Pessoa Física
+                  <input type="radio" name="escolha" id="escolha" required> Condomínio
+                </div>
+               
+          <br>
+                
+         <div>
+            <label for="msg"><strong>Mensagem:</strong></label>
+            <textarea id="msg"></textarea>
+         </div>
+        
+                <button type="submit" class="button">Entrar</button>
+        
+              </div>
+        
+
+        </section>
+           
+
+    </main>
+
+    <footer>
+        <p>Projeto criado para Web Standards</p>
+    </footer>
+</body>
+</html>
