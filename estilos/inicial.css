@@ -62,10 +62,13 @@ a:hover {
 
 
 
+
+
 section {
     margin: 0px;
     padding: 20px;
     text-align: center;
+    margin: auto;
 }
 
 section > h1 {
