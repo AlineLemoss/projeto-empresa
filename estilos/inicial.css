@@ -24,7 +24,7 @@ header{
     height: 610px;
     background-position: center; 
     background-size: cover;
-    background-image: url(../img/plantaVerde.jpg);
+    background-image: url(../img/capa-principal.jpg);
     position: relative;
 }
 
@@ -155,6 +155,16 @@ h2{
 
 /*Organização do formulário*/
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 70px;
+}
+
+.contatos > div{
+    margin: 45px 5px;
+}
+
 .subtitulo, .titulo {
     font-size: 1.5em;
     padding: 2px;
@@ -170,7 +180,7 @@ h2{
 
 .content {
 width: 500px;
-margin: 0 auto;
+/* margin: 0 auto; */
 border-radius: 15px;
 }
 
