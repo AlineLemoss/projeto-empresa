@@ -239,7 +239,7 @@ font-size: 16px;
   /*rodapé*/
 footer{
     font-family: var(--fonte-para-paragrafos);
-    background-color: var(--cor-de-funto);
+    background-color: #024B36;
     color: white;
     text-align: center;
     padding: 10px;
