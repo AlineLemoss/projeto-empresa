@@ -67,8 +67,7 @@ a:hover {
 
 /* -------- Títulos e parágrafos --------- */
 
-h1,
-h2{
+h1{
     font-family: var(--fonte-familia-titulo);
     font-weight: 600;
     font-size: 62px;
@@ -97,8 +96,7 @@ h2{
 
 /* -------- Seção 2 --------- */
 #missao {
-    color: #284F44;
-    margin: 65px 0px;
+    background-color: #fbfbf4;
     align-items: center;
     padding: 90px 80px;
     
@@ -159,23 +157,27 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px 70px;
+    font-family: var(--fonte-para-paragrafos);
 }
 
 .contatos > div{
-    margin: 45px 5px;
+    margin: 45px 5px 80px 5px;
 }
 
-.subtitulo, .titulo {
+.contatos{
+    padding-left: 70px;
+}
+
+.subtitulo{
     font-size: 1.5em;
     padding: 2px;
-    color: #284F44;
     text-align: center;
+    font-family: var(--fonte-para-paragrafos);
+    color: var(--cor-paragrafos);
 }
 
-#form{
-    background-color: #F6F6EA;
-    color: #284F44;
-    text-align: left;
+#info-contatos{
+    padding: 60px 65px;
 }
 
 .content {
@@ -197,11 +199,11 @@ padding: 30px;
 
 input[type=text], input[type=tel], input[type=email] {
 width: 100%;
-padding: 10px;
+padding: 20px;
 margin: 5px 0 22px 0;
 border: 1px solid rgba(0, 0, 0, 0.274);
 border-radius: 5px;
-
+font-size: 16px;
 }
 
 #msg {
@@ -214,12 +216,12 @@ border-radius: 5px;
  border-radius: 5px;
 }
 
-label {
+/* label {
     margin: 2px;
-}
+} */
 
 .button {
-    background-color:#284F44;
+    background-color:#77C720;
     color: white;
     padding: 16px 20px;
     margin: 34px 0;
