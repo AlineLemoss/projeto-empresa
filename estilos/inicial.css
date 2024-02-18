@@ -7,7 +7,7 @@
     --fonte-familia-titulo: 'Montserrat';
     --fonte-para-paragrafos: 'Open Sans';
     --cor-paragrafos: #918D8B;
-    --cor-de-funto: #025920;
+     --cor-de-funto: #EEFAE1;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Roboto&display=swap');
@@ -25,6 +25,7 @@ header{
     background-position: center; 
     background-size: cover;
     background-image: url(../img/capa-principal.jpg);
+    width: 100%;
     position: relative;
 }
 
@@ -106,6 +107,7 @@ h1{
     display: grid;
     justify-content: center;
     grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 230px 230px;
     width: 505px;
     margin: 0 auto
 }
@@ -114,9 +116,39 @@ h1{
 .missao{
     padding: 20px;
     margin: 10px;
-    background-color: #dadada;
+    /* background-color: #dadada; */
     font-family: var(--fonte-para-paragrafos);
     color: var(--cor-paragrafos);
+}
+
+.missao h3{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.missao-img1{
+    background-image: url(../img/folhas-biologicas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px; 
+    background-color: rgb(119, 199, 32);
+}
+
+.missao-img2{
+    background-image: url(../img/poluicao-do-ar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px; 
+    background-color: #77C720;
+}
+
+.missao-img3{
+    background-image: url(../img/deposito-de-lixo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px; 
+    background-color: #77C720;
 }
 
 /* -------- Seção 3 --------- */
