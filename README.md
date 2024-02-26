@@ -2,6 +2,8 @@
 
 Um website de uma empresa fictícia de reciclagem
 
+[Link para visualizar a página](https://alinelemoss.github.io/projeto-empresa/)
+
 <br>
 
 ## Autora
