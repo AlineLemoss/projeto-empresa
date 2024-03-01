@@ -80,7 +80,7 @@ h1{
 
 .paragrafo{
     line-height: 150%;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     font-size: var(--tamanho-dos-paragrafos);
     font-family: var(--fonte-para-paragrafos);
     color: var(--cor-paragrafos);
@@ -280,9 +280,34 @@ footer{
 }
 
 /* Responsividade da Seção 1 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 668px) {
     #sobre div{
         width: 100%;
         grid-template-columns: 1fr;
+        grid-template-rows: 240px;
+    
+    img{
+        height: 230px;
     }
+    }
+
+    #missao{
+        padding: 50px;
+
+        .containerMissao {
+            grid-template-columns: repeat(2, 250px);
+            width: 100%;
+
+        }
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
 }
+
+/* Responsividade da Seção 1 */
+/* @media screen and (max-) {
+    
+} */
