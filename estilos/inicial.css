@@ -5,6 +5,8 @@
 
 :root {
     --fonte-familia-titulo: 'Montserrat';
+    --tamano-dos-titulos: clamp(2em, 5vw, 4em);
+    --tamanho-dos-paragrafos: clamp(1em, 1.5vw, 1.2em);
     --fonte-para-paragrafos: 'Open Sans';
     --cor-paragrafos: #918D8B;
      --cor-de-funto: #EEFAE1;
@@ -71,7 +73,7 @@ a:hover {
 h1{
     font-family: var(--fonte-familia-titulo);
     font-weight: 600;
-    font-size: 62px;
+    font-size: var(--tamano-dos-titulos);
     margin-bottom: 60px;
     text-align: center;
 }
@@ -79,7 +81,7 @@ h1{
 .paragrafo{
     line-height: 150%;
     margin-top: 40px;
-    font-size: 19px;
+    font-size: var(--tamanho-dos-paragrafos);
     font-family: var(--fonte-para-paragrafos);
     color: var(--cor-paragrafos);
 }
@@ -91,7 +93,7 @@ h1{
 
 #sobre div {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 480px 1fr;
     gap: 50px;
 }
 
@@ -275,4 +277,12 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsividade da Seção 1 */
+@media screen and (max-width: 600px) {
+    #sobre div{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
 }
