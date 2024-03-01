@@ -280,7 +280,7 @@ footer{
 }
 
 /* Responsividade da Seção 1 */
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
     #sobre div{
         width: 100%;
         grid-template-columns: 1fr;
