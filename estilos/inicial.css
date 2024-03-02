@@ -285,7 +285,7 @@ footer{
 
 /* Responsividade da Seção 1 */
 @media screen and (max-width: 768px) {
-    #sobre, #missao{
+    #sobre, #missao, #info-contatos{
         padding: 40px;
     }
 
