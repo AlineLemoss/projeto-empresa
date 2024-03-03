@@ -97,7 +97,6 @@ h1{
 #sobre div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /* grid-template-columns: 480px 1fr; */
     gap: 50px;
 }
 
@@ -113,10 +112,6 @@ h1{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /* grid-template-rows: repeat(6,230px); */
-    /*max-width: 900px; */
-    /* grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(2, 230px); */
     max-width: 87em;
     margin: 0 auto
 }
@@ -203,8 +198,6 @@ h1{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     padding: 20px 70px;
     font-family: var(--fonte-para-paragrafos);
 }
@@ -233,7 +226,6 @@ h1{
 .content {
 max-width: 650px;
 min-width: 300px;
-/* margin: 0 auto; */
 border-radius: 15px;
 }
 
@@ -295,7 +287,7 @@ footer{
 
 
 /* Responsividade da Seção 1 */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #sobre, 
     #missao, 
     #info-contatos,
@@ -303,24 +295,6 @@ footer{
         padding: 25px;
     }
 
-    /* #sobre div{
-        padding: 10px;
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-rows: 240px;
-    
-    img{
-        height: 230px;
-    }
-    } */
-
-
-    /* .containerMissao {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 230px);
-        /* width: 100%;  
-
-    } */
     .grid-container{
         grid-template-columns: 1fr;
         padding: 0
@@ -329,13 +303,4 @@ footer{
     form{
         padding: 0;
     }
-}
-/* #missao{
-    padding: 10px;
-
-
-
-/* Responsividade da Seção 1 */
-/* @media screen and (max-) {
-    
 } */
