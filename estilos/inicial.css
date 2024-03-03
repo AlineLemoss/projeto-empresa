@@ -57,7 +57,7 @@ header nav {
     padding: 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: clamp(0.5em, 1vw, 0.9em);
     font-weight: 600;
     
 } 
@@ -108,9 +108,9 @@ h1{
 .containerMissao{
     display: grid;
     justify-content: center;
-    /* grid-template-columns: repeat(250px,1fr);
-    grid-template-rows: repeat(6,230px);
-    max-width: 900px; */
+    /* grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(6,230px); */
+    /*max-width: 900px; */
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 230px);
     max-width: 900px;
@@ -166,13 +166,14 @@ h1{
 
 #atendimento p {
     text-align: center;
-    font-size: 30px;
+    font-size: clamp(1em, 3.5vw, 2em);
     padding: 0px 15px 35px 15px;
-    margin-bottom: 90px;
+    margin-bottom: 65px;
     font-family: var(--fonte-para-paragrafos);
 }
 
 #atendimento a {
+    display: flex;
     font-family: var(--fonte-para-paragrafos);
     font-weight: 600;
     background-color: #77C720;
@@ -180,7 +181,8 @@ h1{
     padding: 15px 25px 15px 25px;
     border-radius: 15px;
     text-decoration: none;
-    margin: 46px 500px 0px 500px;
+    margin: 0 auto;
+    max-width: 190px;
 }
 
 /* -------- Seção 4 --------- */
@@ -203,6 +205,7 @@ h1{
 
 .contatos{
     padding-left: 70px;
+    font-family: var(--fonte-para-paragrafos);
 }
 
 .subtitulo{
@@ -218,7 +221,8 @@ h1{
 }
 
 .content {
-width: 500px;
+max-width: 650px;
+min-width: 300px;
 /* margin: 0 auto; */
 border-radius: 15px;
 }
@@ -285,8 +289,11 @@ footer{
 
 /* Responsividade da Seção 1 */
 @media screen and (max-width: 768px) {
-    #sobre, #missao, #info-contatos{
-        padding: 40px;
+    #sobre, 
+    #missao, 
+    #info-contatos,
+    .grid-container{
+        padding: 25px;
     }
 
     #sobre div{
@@ -307,14 +314,19 @@ footer{
         /* width: 100%;  */
 
     }
+    .grid-container{
+        grid-template-columns: 1fr;
+        padding: 0
+    } 
+
+    form{
+        padding: 0;
+    }
 }
 /* #missao{
     padding: 10px;
 
 
-.grid-container{
-    grid-template-columns: 1fr;
-} */
 
 /* Responsividade da Seção 1 */
 /* @media screen and (max-) {
